@@ -20,9 +20,16 @@ function createGrid(n) {
     for (let i = 0; i < n * n; i++) {
         const cell = document.createElement('div');
         cell.classList.add('cell');
+        cell.dataset.opacity = '0';
 
         cell.addEventListener('mouseover', () => {
-            cell.style.backgroundColor = '#000';
+            let opacity = Number(cell.dataset.opacity);
+
+            if (opacity < 1) {
+                opacity += 0.1;
+                cell.dataset.opacity = opacity;
+                cell.style.backgroundColor = `rgba(0, 0, 0, ${opacity})`;
+            }
         });
 
         grid.appendChild(cell);
