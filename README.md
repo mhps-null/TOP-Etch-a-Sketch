@@ -13,7 +13,7 @@ Users can draw by hovering over a dynamic grid, clear the drawing, and change th
 
 ## Demo
 Live demo (GitHub Pages):  
-👉 https://mhps-null.github.io/etch-a-sketch/
+👉 https://mhps-null.github.io/TOP-Etch-a-Sketch/
 
 ## Technologies Used
 - **HTML5** — semantic structure
