@@ -33,9 +33,3 @@ This project was built as part of **The Odin Project** curriculum, focusing on:
 - Every mouse hover increases opacity by `0.1`
 - After ~10 hovers, the cell becomes fully black
 - Clearing or resizing the grid recreates the DOM from scratch
-
-## Project Structure
-├── index.html
-├── style.css
-├── script.js
-└── README.md
